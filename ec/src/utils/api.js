@@ -7,7 +7,7 @@ import axios from "axios";
 
 const params = {
   headers: {
-    Authorization: "Bearer 2dbedb9b0a79aabeb968507b97f64dbbbcb79b9136df9b46c0e0698e15ba5a052656b07838d5738abfbb40b41d1b58efd22b63cff4e2e2d8fbb2e99ee9bfeb0123ae82bf9f3e0880fe32dfa936888c8cd8e4138bbe2a9b0ab8cc4e2e222ae5e1261dd72ef07d7109d48729f77cedbdb03f371392b692e59ca1a10ade1eeb12a0
+    Authorization: "Bearer 2dbedb9b0a79aabeb968507b97f64dbbbcb79b9136df9b46c0e0698e15ba5a052656b07838d5738abfbb40b41d1b58efd22b63cff4e2e2d8fbb2e99ee9bfeb0123ae82bf9f3e0880fe32dfa936888c8cd8e4138bbe2a9b0ab8cc4e2e222ae5e1261dd72ef07d7109d48729f77cedbdb03f371392b692e59ca1a10ade1eeb12a0"
   
   },
 };

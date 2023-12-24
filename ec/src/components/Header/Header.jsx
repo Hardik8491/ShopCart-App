@@ -28,7 +28,7 @@ const Header = () => {
 window.addEventListener("scroll",handleScroll)
     },[])
     return <div>
-<header className={`main-header ${scrolled ? 'sticky-header':''}`}>
+<header className={`main-header  ${scrolled ? 'sticky-header':''}`}>
     <div className="header-content">
         <ul className="left">
         <li>Home</li>

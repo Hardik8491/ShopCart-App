@@ -11,14 +11,21 @@ const params = {
   
   },
 };
-console.log(params);
+
 
 export const fetchDataFromApi = async (url) => {
+  console.log(url);
   try {
     const response = await axios.get(
       process.env.REACT_APP_DEV_URL + url,
-      params,
+      {
+        withCredentials:true,
+        headers:{
+          Authorization:`bearer ${process.env.REACT_APP_STIRPE_KEY}`
+        }
+      },
     );
+    
 
     console.log(process.env.REACT_APP_DEV_URL + url);
     console.log(url)
